@@ -70,9 +70,9 @@ public class TelefonTest {
         huaweiAccesorii.add("Cablu de alimentare");
         huaweiAccesorii.add("Brick");
 
-        Telefon huawei = new Telefon("Huawei", "Pro", "White", "32GB", 5700,
-                huawei, huaweiAccesorii, "true", "Urme fine de utilizare");
-        huawei.infoTelefon();
+        Telefon huaweiP30 = new Telefon("Huawei", "Pro", "White", "32GB", 5700,
+                huawei, huaweiAccesorii, true, "Urme fine de utilizare");
+        huaweiP30.infoTelefon();
     }
 
 }
