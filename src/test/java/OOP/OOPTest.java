@@ -1,5 +1,6 @@
 package OOP;
 
+import org.openqa.selenium.bidi.log.Log;
 import org.testng.annotations.Test;
 
 import java.util.Arrays;
@@ -16,20 +17,23 @@ public class OOPTest {
         DaciaConfigurator Logan = new DaciaConfigurator("Dacia", "Logan", 2024, "Essential", "TCe 90 MT6",
                 "Grey", "Standard", "Standard",echipamenteLogan, accesoriiLogan);
         Logan.infoDacia();
-
-
+        Logan.pornesteMotor();
+        Logan.deschidereGeam();
+        Logan.promotieDacia();
+        Logan.promotieDacia("Ticket Rabla");
+        Logan.promotieDacia(25);
 
        System.out.println("===============================");
 
         //dam o comanda de masina Volkswagen
-        List<String> dotariOptionalePolo = Arrays.asList("Pachet comfort", "Trapa de sticla panoramica", "Pachet IQ Drive", "Park Pilot");
-
-        VolkswagenConfigurator Polo = new VolkswagenConfigurator("Volkswagen", "Polo", 2018,"Advanced",
-                "Polo Life 1.0 TSI", "Verde", "Jante Aliaj Essex 15", "Stofa", dotariOptionalePolo);
-        Polo.infoVolkswagen();
-
-
-        System.out.println("===============================");
+//        List<String> dotariOptionalePolo = Arrays.asList("Pachet comfort", "Trapa de sticla panoramica", "Pachet IQ Drive", "Park Pilot");
+//
+//        VolkswagenConfigurator Polo = new VolkswagenConfigurator("Volkswagen", "Polo", 2018,"Advanced",
+//                "Polo Life 1.0 TSI", "Verde", "Jante Aliaj Essex 15", "Stofa", dotariOptionalePolo);
+//        Polo.infoVolkswagen();
+//
+//
+//        System.out.println("===============================");
 //
 //        //Mai definesc o Dacie si un VW
 //        List<String> echipamenteDuster = Arrays.asList("Pachet techno", "Pachet Clima", "Pachet Parking");

@@ -46,6 +46,15 @@ public class DaciaConfigurator extends MasinaConfigurator {
 
         calculPretFinal();
     }
+
+    //Aplicam polimofrismul dinamic
+    public void pornesteMotor () {
+        System.out.println("Masinile Dacia pornesc de la buton.");
+    }
+
+    public void deschidereGeam () {
+        System.out.println("Geamurile se deschid manual.");
+    }
     //Trebuie sa determinam pretul standard in functie de model
 
     public void calculPretStandard(){
@@ -98,63 +107,48 @@ public class DaciaConfigurator extends MasinaConfigurator {
     public String getVersiune() {
         return versiune;
     }
-
     public void setVersiune(String versiune) {
         this.versiune = versiune;
     }
-
     public String getMotor() {
         return motor;
     }
-
     public void setMotor(String motor) {
         this.motor = motor;
     }
-
     public String getCuloare() {
         return culoare;
     }
-
     public void setCuloare(String culoare) {
         this.culoare = culoare;
     }
-
     public String getJante() {
         return jante;
     }
-
     public void setJante(String jante) {
         this.jante = jante;
     }
-
     public List<String> getEchipamente() {
         return echipamente;
     }
-
     public void setEchipamente(List<String> echipamente) {
         this.echipamente = echipamente;
     }
-
     public List<String> getAccesorii() {
         return accesorii;
     }
-
     public void setAccesorii(List<String> accesorii) {
         this.accesorii = accesorii;
     }
-
     public String getInterior() {
         return interior;
     }
-
     public void setInterior(String interior) {
         this.interior = interior;
     }
-
     public Double getPretStandard() {
         return pretStandard;
     }
-
     public Double getPretFinal() {
         return pretFinal;
     }
