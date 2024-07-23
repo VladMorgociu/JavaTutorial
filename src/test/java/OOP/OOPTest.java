@@ -1,6 +1,5 @@
 package OOP;
 
-import org.openqa.selenium.bidi.log.Log;
 import org.testng.annotations.Test;
 
 import java.util.Arrays;
